@@ -5,4 +5,6 @@ public interface UserManage {
   void logout();
   void join();
 
+
+
 }

@@ -6,6 +6,14 @@ public class UserDAO {
   private String password;
   private String name;
 
+  public UserDAO() {
+  }
+
+  public UserDAO(String id, String password, String name) {
+    this.id = id;
+    this.password = password;
+    this.name = name;
+  }
   public String getId() {
     return id;
   }
