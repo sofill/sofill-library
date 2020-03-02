@@ -1,6 +1,10 @@
 
 public class App {
   public static void main(String[] args) {
-    System.out.println("안녕하세요?");
+
+    while(true) {
+      LibraryService ls = new LibraryService();
+      ls.entrance();
+    }
   }
 }
